@@ -1,12 +1,11 @@
 # Disaster-Response-Pipelines
 
-### Table of Contents
-*[Installation](#Installation)
-*[Project Motivation](#Project-Motivation)
-*[File Descriptions](#File-Descriptions)
-*[Results](#Results)
-*[Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
-
+### Table of Contents:
+* [Installation](#Installation)
+* [Project Motivation](#Project-Motivation)
+* [File Descriptions](#File-Descriptions)
+* [Results](#Results)
+* [Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
 
 ## Installation
 All libraries are available in Anaconda distribution of Python. The used libraries are:
