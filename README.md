@@ -1,11 +1,11 @@
 # Disaster-Response-Pipelines
 
 ### Table of Contents
-*1. [Installation](#Installation)
-*2. [Project Motivation](#Project-Motivation)
-*3. [File Descriptions](#File-Descriptions)
-*4. [Results](#Results)
-*5. [Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
+*. [Installation](#Installation)
+*. [Project Motivation](#Project-Motivation)
+*. [File Descriptions](#File-Descriptions)
+*. [Results](#Results)
+*. [Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
 
 
 ## Installation
@@ -44,7 +44,7 @@ Trains and tunes a model using GridSearchCV
 Outputs results on the test set
 Exports the final model as a pickle file
 
-3. Flask Web App: the web app enables the user to enter a disaster message, and then view the categories of the message.
+3.Flask Web App: the web app enables the user to enter a disaster message, and then view the categories of the message.
 The web app also contains some visualizations that describe the data.
 
 ## Files Descriptions
