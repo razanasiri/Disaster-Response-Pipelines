@@ -1,28 +1,28 @@
 # Disaster-Response-Pipelines
 
 ### Table of Contents
-* [Installation](#Installation)
-* [Project Motivation](#Project-Motivation)
-* [File Descriptions](#File-Descriptions)
-* [Results](#Results)
-* [Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
+*1. [Installation](#Installation)
+*2. [Project Motivation](#Project-Motivation)
+*3. [File Descriptions](#File-Descriptions)
+*4. [Results](#Results)
+*5. [Licensing, Authors, and Acknowledgements](#Licensing,-Authors,-and-Acknowledgements)
 
 
 ## Installation
 All libraries are available in Anaconda distribution of Python. The used libraries are:
 
-pandas
-re
-sys
-json
-sklearn
-nltk
-sqlalchemy
-pickle
-Flask
-plotly
-sqlite3
-The code should run using Python versions 3.*.
+1. pandas
+2. re
+3. sys
+4. json
+5. sklearn
+6. nltk
+7. sqlalchemy
+8. pickle
+9. Flask
+10. plotly
+11. sqlite3
+12. The code should run using Python versions 3.*.
 
 ## Project Motivation
 The goal of the project is to classify the disaster messages into categories. In this project, I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster messages. Through a web app, the user can input a new message and get classification results in several categories. The web app also display visualizations of the data.
@@ -30,19 +30,21 @@ The goal of the project is to classify the disaster messages into categories. In
 ## Project Descriptions
 The project has three componants which are:
 
-1-ETL Pipeline: process_data.py file contain the script to create ETL pipline which:
+1.ETL Pipeline: process_data.py file contain the script to create ETL pipline which:
 Loads the messages and categories datasets
 Merges the two datasets
 Cleans the data
 Stores it in a SQLite database
-2-ML Pipeline: train_classifier.py file contain the script to create ML pipline which:
+
+2.ML Pipeline: train_classifier.py file contain the script to create ML pipline which:
 Loads data from the SQLite database
 Splits the dataset into training and test sets
 Builds a text processing and machine learning pipeline
 Trains and tunes a model using GridSearchCV
 Outputs results on the test set
 Exports the final model as a pickle file
-3-Flask Web App: the web app enables the user to enter a disaster message, and then view the categories of the message.
+
+3. Flask Web App: the web app enables the user to enter a disaster message, and then view the categories of the message.
 The web app also contains some visualizations that describe the data.
 
 ## Files Descriptions
@@ -73,4 +75,3 @@ To run ETL pipeline that cleans data and stores in database python data/process_
 To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 Run the following command in the app's directory to run your web app. python run.py
 
-Go to http://0.0.0.0:3001/
